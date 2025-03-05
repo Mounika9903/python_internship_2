@@ -1,0 +1,11 @@
+from queue import LifoQueue
+stack=LifoQueue()
+stack.put(10)
+stack.put(20)
+stack.put(30)
+stack.put(40)
+stack.put(50)
+print("Top element:",stack.queue[-1])
+print("Popped element:",stack.get())
+print("Popped element:",stack.get())
+print("Stack size:",stack.qsize())
